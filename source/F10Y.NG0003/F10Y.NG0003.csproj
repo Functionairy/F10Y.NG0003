@@ -17,4 +17,7 @@
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="9.0.4" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="$(NuGetPackageRoot)\system.text.json\9.0.4\lib\netstandard2.0\System.Text.Json.xml" CopyToOutputDirectory="Always" />
+  </ItemGroup>
 </Project>
